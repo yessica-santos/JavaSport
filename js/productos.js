@@ -52,73 +52,73 @@ const productos = [
         id: 7,
         nombre: "Mochila de Gimnasio",
         description: "Mochila amplia con compartimento separado para calzado deportivo.",
-        precio: 35.00,
+        precio: 799.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Mochila+Gym"
+        img: "https://images.unsplash.com/photo-1622260614153-03223fb72052?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 8,
-        nombre: "Termo de Acero Inoxidable 1L",
-        description: "Mantiene el agua fría por 24 horas. Ideal para entrenamientos largos.",
-        precio: 18.99,
+        nombre: "Ropa deportiva para gimnasio",
+        description: "Ropa ideal para hacer ejercicio en gimnasio.",
+        precio: 499.99,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Termo+Deportivo"
+        img: "https://images.unsplash.com/photo-1595909315417-2edd382a56dc?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 9,
-        nombre: "Tapete de Yoga Antideslizante",
-        description: "Tapete de 6mm de grosor para máxima comodidad en tus posturas.",
-        precio: 22.50,
+        nombre: "Pants para yoga",
+        description: "Pants comodos para tus practicas de yoga.",
+        precio: 899.50,
         category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Tapete+Yoga"
+        img: "https://images.unsplash.com/photo-1724833798548-2b5af67952dd?q=80&w=636&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 10,
-        nombre: "Lentes de Natación Anti-vaho",
-        description: "Goggles con protección UV y sello de silicona a prueba de filtraciones.",
-        precio: 14.00,
+        nombre: "Ropa para natación",
+        description: "Comoda ropa ideal para nadar en alberca.",
+        precio: 1500.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Lentes+Natacion"
+        img: "https://images.unsplash.com/photo-1600817068654-63afdb743932?q=80&w=587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 11,
-        nombre: "Guantes de Levantamiento de Pesas",
-        description: "Guantes con soporte para muñeca y palmas acolchadas.",
-        precio: 19.99,
+        nombre: "Ropa de gimnasio para hombre",
+        description: "Ropa holgada para gimnasio de hombre casual.",
+        precio: 799.99,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Guantes+Pesas"
+        img: "https://images.unsplash.com/photo-1667900334692-0bf6afe68cbf?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 12,
         nombre: "Calcetas de Compresión (Par)",
         description: "Mejoran la circulación y reducen la fatiga muscular al correr.",
-        precio: 10.50,
+        precio: 499.50,
         category: "Ropa",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Calcetas+Compresion"
+        img: "https://images.unsplash.com/photo-1641482847237-e64ca2769a8c?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 13,
         nombre: "Sudadera con Capucha",
         description: "Sudadera térmica ideal para calentar antes de la rutina.",
-        precio: 45.00,
+        precio: 999.00,
         category: "Ropa",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Sudadera+Capucha"
+        img: "https://images.unsplash.com/photo-1586038693164-cb7ee3fb8e2c?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 14,
         nombre: "Pants de Entrenamiento",
         description: "Pantalones ligeros con corte cónico y bolsillos con cierre.",
-        precio: 38.00,
+        precio: 1500.00,
         category: "Ropa",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Pants+Entrenamiento"
+        img: "https://plus.unsplash.com/premium_photo-1664392013281-96b8f0763c30?q=80&w=586&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 15,
         nombre: "Reloj Deportivo Inteligente",
         description: "Monitor de ritmo cardíaco, GPS y contador de pasos integrado.",
-        precio: 150.00,
+        precio: 5000.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Reloj+Inteligente"
+        img: "https://images.unsplash.com/photo-1706718273419-9eaa45b72483?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     // ... (Tus productos del 1 al 15 se quedan exactamente igual)
