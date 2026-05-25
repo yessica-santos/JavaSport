@@ -1,4 +1,5 @@
 // Renderizado de la interfaz al cargar el DOM
+
 document.addEventListener('DOMContentLoaded', () => {
     const contenedor = document.getElementById('contenedor-productos');
 
