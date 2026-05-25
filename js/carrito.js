@@ -100,3 +100,26 @@ document.addEventListener('DOMContentLoaded', () => {
     actualizarContador();
     renderizarCarrito();
 });
+
+// NUEVA FUNCIÓN: Simular el pago exitoso
+function procesarPago() {
+    // Verificamos que haya productos en el carrito
+    if (carrito.length === 0) {
+        alert("Tu carrito está vacío. ¡Agrega productos de JavaSport primero!");
+        return;
+    }
+
+    // Pequeña alerta nativa para celebrar
+    alert("¡Pago procesado con éxito! Gracias por tu compra en JavaSport 🏃‍♂️");
+    
+    // Vaciamos el arreglo del carrito
+    carrito = [];
+    
+    // Guardamos el carrito vacío en el LocalStorage
+    guardarEnLocal();
+    
+    // Cerramos el modal usando la API de Bootstrap
+    const modalPago = document.getElementById('modalPago');
+    const modalInstance = bootstrap.Modal.getInstance(modalPago);
+    modalInstance.hide();
+}
