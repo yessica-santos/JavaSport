@@ -4,7 +4,7 @@ const productos = [
         id: 1,
         nombre: "Playera Polo BCG Men's Coaches'",
         description: "Playera polo ligera, ideal para entrenamiento o uso casual.",
-        precio: 12.99,
+        precio: 499.99,
         category: "Ropa",
         img: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500"
     },
@@ -12,7 +12,7 @@ const productos = [
         id: 2,
         nombre: "Tenis Jordan Men's Luka .77",
         description: "Calzado de alto rendimiento para básquetbol con amortiguación premium.",
-        precio: 99.99,
+        precio: 1999.99,
         category: "Calzado",
         img: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
     },
@@ -20,33 +20,33 @@ const productos = [
         id: 3,
         nombre: "Shorts de Golf BCG Men's Essential",
         description: "Shorts cómodos y transpirables con tecnología de secado rápido.",
-        precio: 9.98,
+        precio: 900.98,
         category: "Ropa",
         img: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500"
     },
     {
         id: 4,
-        nombre: "Balón de Fútbol Pro",
-        description: "Balón de fútbol tamaño oficial con cubierta texturizada para mejor control.",
-        precio: 25.50,
+        nombre: "Camisa de Fútbol Braha",
+        description: "Camisa de fútbol tamaño oficial.",
+        precio: 1050.50,
         category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Balon+de+Futbol"
+        img: "https://images.unsplash.com/photo-1689624291789-7b402a15915a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 5,
-        nombre: "Raqueta de Tenis Avanzada",
-        description: "Raqueta ligera de fibra de carbono para mayor potencia en el saque.",
-        precio: 85.00,
+        nombre: "Gorra de Tenis",
+        description: "Gorra de tenis para jugadores.",
+        precio: 850.00,
         category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Raqueta+de+Tenis"
+        img: "https://plus.unsplash.com/premium_photo-1680859126205-1c593bb4f9e8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 6,
         nombre: "Gorra Deportiva Transpirable",
         description: "Gorra con paneles de malla y banda absorbente de sudor.",
-        precio: 15.00,
+        precio: 800.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Gorra+Deportiva"
+        img: "https://images.unsplash.com/photo-1663280419473-f650ee0fd0b9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 7,
