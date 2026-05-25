@@ -3,11 +3,6 @@
 Proyecto desarrollado para el Hackathon (18 minutos) de la Cohorte 67 de Generation México.
 
 ## 👥 Equipo
-* Bruno (Fullstack)
-* Mafer
-* Israel
-* Tonantzin
-* Miguel
 
 ## 🎯 Misión Cumplida
 1. **Diseño atractivo e intuitivo:** Uso de Bootstrap 5 para maquetación ágil y responsiva.
