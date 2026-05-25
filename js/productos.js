@@ -27,26 +27,26 @@ const productos = [
     {
         id: 4,
         nombre: "Camisa de Fútbol Braha",
-        description: "Balón de fútbol tamaño oficial con cubierta texturizada para mejor control.",
+        description: "Camisa de fútbol tamaño oficial.",
         precio: 1050.50,
         category: "Equipo",
         img: "https://images.unsplash.com/photo-1689624291789-7b402a15915a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 5,
-        nombre: "Raqueta de Tenis Avanzada",
-        description: "Raqueta ligera de fibra de carbono para mayor potencia en el saque.",
+        nombre: "Gorra de Tenis",
+        description: "Gorra de tenis para jugadores.",
         precio: 850.00,
         category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Raqueta+de+Tenis"
+        img: "https://plus.unsplash.com/premium_photo-1680859126205-1c593bb4f9e8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 6,
         nombre: "Gorra Deportiva Transpirable",
         description: "Gorra con paneles de malla y banda absorbente de sudor.",
-        precio: 15.00,
+        precio: 800.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Gorra+Deportiva"
+        img: "https://images.unsplash.com/photo-1663280419473-f650ee0fd0b9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 7,
