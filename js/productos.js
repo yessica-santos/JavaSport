@@ -36,7 +36,7 @@ const productos = [
         id: 5,
         nombre: "Raqueta de Tenis Avanzada",
         description: "Raqueta ligera de fibra de carbono para mayor potencia en el saque.",
-        precio: 85.00,
+        precio: 850.00,
         category: "Equipo",
         img: "https://placehold.co/500x500/212529/ffffff?text=Raqueta+de+Tenis"
     },
