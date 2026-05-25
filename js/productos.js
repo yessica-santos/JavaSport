@@ -120,92 +120,95 @@ const productos = [
         category: "Accesorios",
         img: "https://images.unsplash.com/photo-1706718273419-9eaa45b72483?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
+
+    // ... (Tus productos del 1 al 15 se quedan exactamente igual)
+
     {
         id: 16,
-        nombre: "Balón de Básquetbol Oficial",
-        description: "Superficie de piel sintética para excelente agarre en canchas interiores y exteriores.",
-        precio: 30.00,
-        category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Balon+Basquetbol"
+        nombre: "Conjunto Deportivo Tracksuit Striper",
+        description: "Chaqueta de cuello alto y pants jogger con franjas icónicas. Ajuste cómodo y elástico para entrenar al aire libre.",
+        precio: 849.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1540254597053-3901b858d40f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 17,
-        nombre: "Cuerda para Saltar de Velocidad",
-        description: "Cuerda ajustable con cable de acero y mangos ergonómicos.",
-        precio: 8.99,
-        category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Cuerda+Saltar"
+        nombre: "Playera de Compresión Dry-Fit M",
+        description: "Playera elástica de secado rápido que optimiza el rendimiento muscular.",
+        precio: 350.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1763844072520-e480cb2cec8c?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 18,
-        nombre: "Rodilleras de Voleibol",
-        description: "Protección de alto impacto con espuma de alta densidad.",
-        precio: 16.50,
-        category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Rodilleras+Voleibol"
+        nombre: "Leggings Deportivos de Alta Cintura",
+        description: "Mallas elásticas con soporte abdominal y tela transpirable premium.",
+        precio: 520.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1584863495140-a320b13a11a8?q=80&w=673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 19,
-        nombre: "Tenis para Correr Asfalto",
-        description: "Calzado ultraligero con suela reactiva para largas distancias.",
-        precio: 89.99,
-        category: "Calzado",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Tenis+Running"
+        nombre: "Rompevientos Impermeable Trail",
+        description: "Chaqueta técnica ultraligera resistente al agua y viento con capucha ajustable.",
+        precio: 1250.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1758172071415-b7a24c093055?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 20,
-        nombre: "Tacos de Fútbol Pista",
-        description: "Diseñados para césped sintético y tracción multidireccional.",
-        precio: 110.00,
-        category: "Calzado",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Tacos+Futbol"
+        nombre: "Jersey Futbol Arsenal Adidas",
+        description: "Jersey de futbol Arsenal color rojo",
+        precio: 799.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1577212017184-80cc0da11082?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 21,
-        nombre: "Pesa Rusa 10kg",
-        description: "Kettlebell de hierro fundido con recubrimiento de vinilo.",
-        precio: 40.00,
-        category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Pesa+Rusa+10kg"
+        nombre: "Shorts comodos de algodon",
+        description: "Shorts externos ligeros.",
+        precio: 429.50,
+        category: "Ropa",
+        img: "https://plus.unsplash.com/premium_photo-1724859700425-c934c81ad561?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 22,
-        nombre: "Banda Elástica de Resistencia",
-        description: "Banda de resistencia media para fortalecimiento y rehabilitación.",
-        precio: 12.00,
-        category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Banda+Resistencia"
+        nombre: "Playera Tank Top Gym-Ready",
+        description: "Playera sin mangas con corte olímpico, máxima frescura para entrenar.",
+        precio: 280.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1693214099434-18398a882fbc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 23,
-        nombre: "Casco de Ciclismo Aerodinámico",
-        description: "Casco ligero con excelente ventilación y ajuste milimétrico.",
-        precio: 55.00,
-        category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Casco+Ciclismo"
+        nombre: "Sudadera Hoodie Yellow Skull & Rose",
+        description: "Sudadera urbana color amarillo vibrante con gorro y estampado gráfico de calavera en la espalda. Tela de algodón suave, ideal para un estilo urbano y cómodo.",
+        precio: 799.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1609873814058-a8928924184a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 24,
         nombre: "Top Deportivo de Alto Impacto",
-        description: "Soporte máximo para running y entrenamientos intensos.",
-        precio: 24.99,
+        description: "Soporte máximo para running y entrenamientos funcionales intensos.",
+        precio: 499.00,
         category: "Ropa",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Top+Deportivo"
+        img: "https://images.unsplash.com/photo-1711188053992-5c18a61dca97?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 25,
-        nombre: "Chamarra Rompevientos",
-        description: "Chamarra ultraligera, repelente al agua y fácil de empacar.",
-        precio: 60.00,
+        nombre: "Pants Jogger de Entrenamiento",
+        description: "Pantalón deportivo con puños ajustados y bolsillos laterales con cierre.",
+        precio: 650.00,
         category: "Ropa",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Chamarra+Rompevientos"
+        img: "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGFudHMlMjBKb2dnZXIlMjBkZSUyMEVudHJlbmFtaWVudG98ZW58MHx8MHx8fDA%3D"
     },
     {
         id: 26,
-        nombre: "Maleta Deportiva Duffle",
-        description: "Bolsa de lona resistente con correa ajustable para el hombro.",
-        precio: 42.00,
-        category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Maleta+Deportiva"
+        nombre: "Chaleco Deportivo Acolchado",
+        description: "Chaleco ligero repelente al agua, ideal para mantener el torso cálido al aire libre.",
+        precio: 899.00,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1725705142909-c529077591be?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
 ];
