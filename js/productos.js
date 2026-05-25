@@ -70,7 +70,7 @@ const productos = [
         description: "Pants comodos para tus practicas de yoga.",
         precio: 899.50,
         category: "Equipo",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Tapete+Yogahttps://media.istockphoto.com/id/530825559/photo/two-folded-yoga-pants.jpg?s=1024x1024&w=is&k=20&c=8LInyoUX2YUGKbGa7co9uE1ImmFhXyLi0qdqXdbyR5k="
+        img: "https://images.unsplash.com/photo-1724833798548-2b5af67952dd?q=80&w=636&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 10,
