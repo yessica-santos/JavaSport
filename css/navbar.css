@@ -1,0 +1,25 @@
+.navbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+#searchBus {
+    min-width: 220px;
+}
+
+#btn-carrito {
+    font-weight: 600;
+}
