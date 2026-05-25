@@ -52,17 +52,17 @@ const productos = [
         id: 7,
         nombre: "Mochila de Gimnasio",
         description: "Mochila amplia con compartimento separado para calzado deportivo.",
-        precio: 35.00,
+        precio: 799.00,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Mochila+Gym"
+        img: "https://images.unsplash.com/photo-1622260614153-03223fb72052?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 8,
-        nombre: "Termo de Acero Inoxidable 1L",
-        description: "Mantiene el agua fría por 24 horas. Ideal para entrenamientos largos.",
+        nombre: "Ropa deportiva para gimnasio",
+        description: "Ropa ideal para hacer ejercicio en gimnasio.",
         precio: 18.99,
         category: "Accesorios",
-        img: "https://placehold.co/500x500/212529/ffffff?text=Termo+Deportivo"
+        img: "https://images.unsplash.com/photo-1595909315417-2edd382a56dc?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 9,
