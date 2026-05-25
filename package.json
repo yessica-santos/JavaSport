@@ -1,0 +1,21 @@
+{
+  "name": "javasport",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado para el Hackathon (18 minutos) de la Cohorte 67 de Generation México.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelMRQ/Javasport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IsraelMRQ/Javasport/issues"
+  },
+  "homepage": "https://github.com/IsraelMRQ/Javasport#readme"
+}
