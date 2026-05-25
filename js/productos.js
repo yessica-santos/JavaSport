@@ -1,7 +1,27 @@
-// Catálogo simulado de productos
+// Catálogo de artículos deportivos de JavaSport
 const productos = [
-    { id: 1, nombre: "Mancuernas Hexagonales 5kg", precio: 550, img: "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=500&auto=format&fit=crop&q=60" },
-    { id: 2, nombre: "Tenis Running Pro", precio: 1299, img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60" },
-    { id: 3, nombre: "Tapete de Yoga Antideslizante", precio: 320, img: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&auto=format&fit=crop&q=60" },
-    { id: 4, nombre: "Cuerda de Salto de Velocidad", precio: 180, img: "https://images.unsplash.com/photo-1515523110800-9415d13b84a8?w=500&auto=format&fit=crop&q=60" }
+    {
+        id: 1,
+        nombre: "Playera Polo BCG Men's Coaches'",
+        description: "Playera polo ligera, ideal para entrenamiento o uso casual.",
+        precio: 12.99,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500"
+    },
+    {
+        id: 2,
+        nombre: "Tenis Jordan Men's Luka .77",
+        description: "Calzado de alto rendimiento para básquetbol con amortiguación premium.",
+        precio: 99.99,
+        category: "Calzado",
+        img: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
+    },
+    {
+        id: 3,
+        nombre: "Shorts de Golf BCG Men's Essential",
+        description: "Shorts cómodos y transpirables con tecnología de secado rápido.",
+        precio: 9.98,
+        category: "Ropa",
+        img: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500"
+    }
 ];
