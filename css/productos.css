@@ -1,7 +1,52 @@
-/*tamaño de imagenes*/
-.card-productos img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover; /* <--- LA MAGIA ESTÁ AQUÍ */
-    margin-bottom: 20px;
+/* Tarjeta con esquinas más suaves y un efecto de elevación flotante */
+.producto-card {
+  border: none !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease !important;
+  background-color: #ffffff;
+  border: 3px solid #2563eb;
+  border: 2px solid #2563eb;
+}
+
+/* Efecto hover innovador al pasar el mouse */
+.producto-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Controlar que las imágenes mantengan proporción y no se deformen */
+.producto-card .card-img-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 240px;
+  object-fit: cover;
+}
+
+/* Limitar la descripción a máximo 3 líneas para evitar asimetrías gigantes */
+.product-description-container p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+  color: #6c757d;
+}
+
+/* Botón moderno con bordes más redondeados y transición suave */
+.btn-custom-cart {
+  border-radius: 10px !important;
+  padding: 10px 0 !important;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.btn-custom-cart:active {
+  transform: scale(0.98);
 }
