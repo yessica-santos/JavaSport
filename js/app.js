@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card-body d-flex flex-column text-center">
                     <h5 class="card-title fw-bold">${prod.nombre}</h5>
                     <p class="card-text text-primary fs-5">$${prod.precio} MXN</p>
+                    <p class="card-text text-muted small flex-grow-1">${prod.description}</p>
                     <button class="btn btn-primary mt-auto w-100 fw-bold" onclick="agregarAlCarrito(${prod.id})">
                         Agregar al Carrito
                     </button>

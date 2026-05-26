@@ -119,5 +119,3 @@ function saveToLocalStorage(cartItems) {
     localStorage.setItem('shoppingCart', JSON.stringify(cartItems));
 }
 Esto facilitará la lectura del código, manteniéndolo limpio y modular.
-
-¿Te gustaría que definamos cómo organizar el flujo de trabajo en GitHub (ramas, commits, merges) para evitar que los 10 integrantes generen conflictos al intentar subir su código al mismo tiempo?
