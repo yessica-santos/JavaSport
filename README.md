@@ -3,6 +3,15 @@
 Proyecto desarrollado para el Hackathon (18 minutos) de la Cohorte 67 de Generation México.
 
 ## 👥 Equipo
+- Bruno Alberto Ruiz Castillo
+- Israel
+- Enrique
+- Rodolfo
+- Ivonne
+- Janice
+- Yessica
+- Katia
+- Danelli
 
 ## 🎯 Misión Cumplida
 1. **Diseño atractivo e intuitivo:** Uso de Bootstrap 5 para maquetación ágil y responsiva.
@@ -94,28 +103,4 @@ Subir enlace a Canvas.
 💻 Pautas Técnicas y Clean Code
 Para mantener un estándar profesional, el equipo de JavaScript debe seguir una regla estricta de nomenclatura: Los nombres de variables, funciones y arreglos deben estar en inglés, pero el contenido de los strings y la interfaz que ve el usuario debe estar en español.
 
-Ejemplo para el módulo de Datos (js/products.js):
-
-JavaScript
-const products = [
-    {
-        id: 1,
-        name: "Mancuernas Hexagonales 5kg",
-        description: "Ideales para entrenamiento funcional en casa.",
-        price: 450.00,
-        imageUrl: "assets/img/mancuernas.jpg"
-    },
-    {
-        id: 2,
-        name: "Tenis Running Pro",
-        description: "Amortiguación máxima para asfalto.",
-        price: 1299.00,
-        imageUrl: "assets/img/tenis.jpg"
-    }
-];
-
-// Función con única responsabilidad (Single Responsibility Principle)
-function saveToLocalStorage(cartItems) {
-    localStorage.setItem('shoppingCart', JSON.stringify(cartItems));
-}
 Esto facilitará la lectura del código, manteniéndolo limpio y modular.
