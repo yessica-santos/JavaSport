@@ -103,23 +103,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // NUEVA FUNCIÓN: Simular el pago exitoso
 function procesarPago() {
-    // Verificamos que haya productos en el carrito
+    // 1. Verificamos que haya productos en el carrito
     if (carrito.length === 0) {
         alert("Tu carrito está vacío. ¡Agrega productos de JavaSport primero!");
         return;
     }
 
-    // Pequeña alerta nativa para celebrar
+    // 2. Pequeña alerta nativa para celebrar
     alert("¡Pago procesado con éxito! Gracias por tu compra en JavaSport 🏃‍♂️");
     
-    // Vaciamos el arreglo del carrito
+    // 3. Vaciamos el arreglo del carrito
     carrito = [];
     
-    // Guardamos el carrito vacío en el LocalStorage
+    // 4. Guardamos el carrito vacío en el LocalStorage
     guardarEnLocal();
     
-    // Cerramos el modal usando la API de Bootstrap
+    // 5. Cerramos el modal usando la API de Bootstrap (creándolo si no existía en JS)
     const modalPago = document.getElementById('modalPago');
-    const modalInstance = bootstrap.Modal.getInstance(modalPago);
+    const modalInstance = bootstrap.Modal.getInstance(modalPago) || new bootstrap.Modal(modalPago);
     modalInstance.hide();
+
+    // 6. LIMPIEZA FORZADA (Para matar la pantalla gris)
+    setTimeout(() => {
+        // Buscamos y destruimos el fondo oscuro
+        const backdrops = document.querySelectorAll('.modal-backdrop');
+        backdrops.forEach(backdrop => backdrop.remove());
+        
+        // Le quitamos el candado a la página para poder hacer scroll
+        document.body.classList.remove('modal-open');
+        document.body.style.overflow = 'auto';
+        document.body.style.paddingRight = '0px';
+        
+        // Recargamos la página para dejar la tienda como nueva (carrito en 0)
+        location.reload();
+    }, 0);
 }
